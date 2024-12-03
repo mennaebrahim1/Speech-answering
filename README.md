@@ -31,14 +31,14 @@ pip install -r requirements.txt
    - You will need a Google API key for both the Speech-to-Text and Generative AI APIs. You can obtain one by following the [Google Cloud documentation](https://cloud.google.com/docs/authentication/getting-started).
    - Once you have your API key, replace the placeholder `google_api_key` in the code with your actual key.
 
-2. **Run the Application**:
-   - Clone the repository to your local machine.
-   - Install the dependencies using the command mentioned above.
-   - Start the Gradio interface by running the Python script:
-   
-   ```bash
-   python app.py
-   ```
+2. ** Run the Notebook**:
+-Open the Jupyter Notebook in your browser.
+-Execute the cells in the notebook step by step.
+-The notebook will:
+    -Record audio using the microphone.
+    -Transcribe the spoken words into text.
+    -Generate a response using the Google Generative AI model.
+    -Use text-to-speech to speak the response.
 
 3. **How It Works**:
    - The app uses a microphone input to record audio.
